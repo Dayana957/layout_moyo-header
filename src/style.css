@@ -30,22 +30,23 @@ body {
   margin-left: auto;
 }
 
-.ul-nav {
+.nav_list {
   display: flex;
   margin: 0;
   padding: 0;
   list-style: none;
 }
 
-.li-nav {
+.nav_item {
   margin-right: 20px;
 }
 
-.li-nav:last-child {
+.nav_item:last-child {
   margin-right: 0;
 }
 
 .nav-link {
+  text-transform: uppercase;
   position: relative;
   display: flex;
   align-items: center;
@@ -53,7 +54,6 @@ body {
   color: #000;
   text-decoration: none;
   font-size: 12px;
-  text-transform: uppercase;
 }
 
 .nav-link:hover {
@@ -68,10 +68,6 @@ body {
   height: 4px;
   background-color: var(--blue-color);
   border-radius: 8px;
-  width: 100%;
-}
-
-.is-active:hover::after {
   width: 100%;
 }
 
